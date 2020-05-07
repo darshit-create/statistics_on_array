@@ -43,9 +43,14 @@ float find_median(unsigned char *p,unsigned int len);
  * @return returns a float value, median of array.
  */
 
-void print_statistics();
+void print_statistics(unsigned char max,unsigned char min,float mean,float median);
 /**
  * Its job is to print all statistics calculated in program.
+ *
+ * unsigned char max ;print maximum of array.
+ * unsigned char min ;print minimum of array.
+ * float mean        ;print mean of array.
+ * float median      ;print median of array.
  */
 
 void print_array(unsigned char *p,unsigned int len);
@@ -66,12 +71,13 @@ unsigned char find_maximum(unsigned char *p,unsigned int len);
  * @return returns a unsigned char value, maximum of array.
  */
 
-unsigned char find_minimum(unsigned char *p,unsigned int len);
+unsigned char find_minimum(unsigned char *p,unsigned int len,unsigned char max);
 /**
  * Its job is to find minimum from array and return its value.
  *
  * unsigned char *p  ;to access array and iterate through it.
  * unsigned int len ;to know about the length for length of loop.
+ * unsigned char max;needed to compare temp variable inorder to find miminum value.
  *
  * @return returns a unsigned char value, minimum of array.
  */
