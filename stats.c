@@ -10,7 +10,7 @@
  *****************************************************************************/
 /**
  * @file stats.c 
- * @brief Statistics on an aaray.
+ * @brief Statistics on an array.
  *
  * Performing statistics on array of type unsigned character. Operations like 
  * finding mean,median,sorting of array in descending order will be done.
@@ -42,3 +42,38 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+float find_mean(unsigned char *p,unsigned int len)
+{
+return 0.0;
+}
+
+
+float find_median(unsigned char *p,unsigned int len)
+{
+return 0.0;
+}
+
+void print_statistics()
+{
+
+}
+
+void print_array(unsigned char *p,unsigned int len)
+{
+
+}
+
+unsigned char find_maximum(unsigned char *p,unsigned int len)
+{
+return 0;
+}
+
+unsigned char find_minimum(unsigned char *p,unsigned int len)
+{
+return 0;
+}
+
+void sort_array(unsigned char *p,unsigned int len)
+{
+return 0;
+}
